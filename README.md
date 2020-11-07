@@ -6,6 +6,7 @@ bikeshare.py
 
 ### Description
 With bikeshare.py project you can find information like popular times of travel, popular stations and trip, trip duration (total, average) and user info (counts, gender, year of birth) of diferent citys
+For example: chicago, new york city and washington
 
 ### Files used
 chicago.csv
