@@ -5,7 +5,7 @@ Project and README file created on 07/11/2020
 bikeshare.py
 
 ### Description
-Describe what your project is about and what it does
+With bikeshare.py project you can find information like popular times of travel, popular stations and trip, trip duration (total, average) and user info (counts, gender, year of birth) of diferent citys
 
 ### Files used
 Include the files used
