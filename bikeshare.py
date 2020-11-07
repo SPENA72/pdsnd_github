@@ -177,7 +177,7 @@ def user_stats(df):
 def show_data(df):
     # raw counter
     startRaw = 0
-    end_raw = 5
+    endRaw = 5
     while True:
         x = input("Would you like to view any row data? Please input: Yes or No.  ").lower()
         # Check input value
@@ -185,10 +185,10 @@ def show_data(df):
             print("That is not a valid input. Try again!")
             continue
         if x == 'yes':
-            print(df.iloc[startRaw : end_raw])
+            print(df.iloc[startRaw : endRaw])
             # restart raw counter
             startRaw = startRaw + 5
-            end_raw = end_raw + 5
+            endRaw = endRaw + 5
             continue
         if x == 'no':
             break
